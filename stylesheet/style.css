@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div.form {
+    display: flex;
+    flex-direction: column;
+}
+
+#allMessages {
+    width: 360px;
+    height: 350px;
+    margin-top: 1rem;
+    transition: all 0.2s;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #ffc727;
+    background-color: #fff;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#allMessages li {
+    padding: 0.5rem 1rem;
+    list-style: none;
+    word-break: break-all;
+    border-top: 1px solid #707070;
+}
+
+main div.form input[type="text"],
+main div.form textarea,
+main div.form button {
+    width: 360px;
+}
+
+main div.form input[type="text"],
+main div.form textarea,
+main div.form button {
+    transition: all 0.2s;
+    border-radius: 1rem;
+    outline: none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border: 2px solid #707070;
+}
+
+main div.form input[type="text"]:hover,
+main div.form textarea:hover,
+main div.form button:hover {
+    cursor: pointer;
+    border: 2px solid #ffc727;
+}
+
+main div.form button {
+    color: #fff;
+    font-weight: 600;
+    background-color: #707070;
+}
+
+main div.form button:hover {
+    background-color: #ffc727;
+}
+
+.author {
+    font-weight: 600;
+}
+
+.deleted {
+    color: #c41a1a;
+}
+
+#button {
+    border: none;
+    background: none;
+    margin-left: 0.2rem;
+}
