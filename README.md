@@ -1,6 +1,6 @@
 # Clock
 
-### <b>View:</b> [clique aqui](https://henrilima.github.io/nash.global-chat/);
+### <b>View:</b> [clique aqui](https://nashcompany.cf/global/);
  
  <br/>
 
