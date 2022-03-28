@@ -1,4 +1,4 @@
-# Clock
+# Global Chat
 
 ### <b>View:</b> [clique aqui](https://nashcompany.cf/global/);
  
